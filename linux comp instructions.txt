@@ -1,0 +1,9 @@
+Note to self: Uninstall kernel ver 6.20, and recompile your linux kernel.
+HOW TO GET DRIVERS: (AKA BUILT IN SOUND ON LEGION LAPTOPS, SPECIFICALLY 16IAX7)
+step 1: download this patch: https://bugzilla.kernel.org/attachment.cgi?id=303828
+after that, get kernel ver 6.20 (linux) or get newest one
+info: this patch is for 6.20 so newer versions are untested, try newer versions at your risk!
+after installing linux kernel, extract it, go into the main folder, and run patch -p1 < "patch you downloaded"
+replace "patch you downloaded" with the patch you downloaded from the link
+compile via these instructions: https://phoenixnap.com/kb/build-linux-kernel
+and you should be done! make sure you boot into the correct kernel, and cheers with your sound driver stuff!
